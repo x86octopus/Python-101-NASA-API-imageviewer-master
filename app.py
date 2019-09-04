@@ -12,8 +12,10 @@ APPNAME = "Introduction to Python with NASA API"
 STATIC_FOLDER = 'example'
 
 
-# get_api_key: This function pulls your API key from your .env file
-# If you do not have a .env file, create a file with the file name .env and the below contents:
+# get_api_key: This function pulls your API key from
+# your .env file
+# If you do not have a .env file, create a file with the file name
+# .env and the below contents:
 # api_key="Replace this with your API key"
 def get_api_key():
     load_dotenv()
@@ -37,7 +39,7 @@ def set_table():
     nasa_api_response = requests.get(
             "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol="
             + rand_sol_str
-            + "&page=2&api_key="
+            + "&page=1&api_key="
             + apikey)
     # Set this data up as an Ordered Dict instead
     nasa_api_dict = nasa_api_response.json(object_pairs_hook=OrderedDict)
