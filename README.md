@@ -11,6 +11,8 @@ api_key="Replace this with your API key"
 Replace the contents of the string with your API key.
 Run in the Python IDE of your choice.
 
+![](screenshot.JPG)
+
 See original README below.
 
 # ImageViewer
