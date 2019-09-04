@@ -1,0 +1,9 @@
+*.pyc
+*~
+.idea/imageviewer-master.iml
+.env
+.idea/inspectionProfiles/Project_Default.xml
+.idea/libraries/R_User_Library.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml

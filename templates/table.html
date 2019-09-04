@@ -1,0 +1,11 @@
+<table class="table table-striped">
+  <tbody>
+    {% for key in ["name", "id", "sol", "camera", "link", "date", "rover"] %}
+    <tr>
+      <td><b>{{ key|e|capitalize }}</b></td>
+      <td>{{ data[key]|e }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
