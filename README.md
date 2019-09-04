@@ -1,3 +1,18 @@
+# Python 101 with NASA API
+## Based on ImageViewer
+
+I modified this app to pull images from the NASA database.
+
+## Test it!
+
+Create an .env file with the following text:
+api_key="Replace this with your API key"
+
+Replace the contents of the string with your API key.
+Run in the Python IDE of your choice.
+
+See original README below.
+
 # ImageViewer
 
 Do you have a bunch of images with meta information that you would like to go through (or share)?
@@ -21,7 +36,7 @@ You'll want to setup a proper database. See
 
 Do
 ```sh
-git clone https://github.com/smoh/imageviewer
+git clone https://github.com/x86octopus/Python-101-NASA-API-imageviewer-master
 cd imageviewer
 conda env create    # will create viewer conda environment specified in environment.yml
 source activate viewer
@@ -31,11 +46,5 @@ and point your browser to `localhost:5000`.
 This will show images inside `example/images/` directory with the related information in `fakecatalog.csv`
 like this:
 
-![](screenshot.png)
-
 Configure static file paths in `app.py` and modify templates in `templates/`
 according to your needs. [Flask](http://flask.pocoo.org/) uses the [jinja](http://jinja.pocoo.org/) template engine.
-
-
-## To do (maybe?)
-- example for updating comments
