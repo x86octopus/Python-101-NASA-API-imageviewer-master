@@ -8,7 +8,7 @@ import glob
 import urllib.request
 import random
 
-APPNAME = "PrettyGalaxies"
+APPNAME = "Introduction to Python with NASA API"
 STATIC_FOLDER = 'example'
 
 
